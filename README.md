@@ -217,6 +217,7 @@ Este proyecto tiene como base la creación de una floristería online accesible,
 La futura web permitirá visualizar productos, comprarlos y enviarlos a un destinatario elegido, convirtiéndose en una propuesta realista y adecuada para desarrollar el Proyecto Intermodular de 1º de DAW.\[file:2]
 
 
+## Documentación
 
-\-> \[Acceso al backlog](./backlog.md)
+[Acceso al backlog](backlog.md)
 
