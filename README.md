@@ -219,5 +219,5 @@ La futura web permitirá visualizar productos, comprarlos y enviarlos a un desti
 
 ## Documentación
 
-[Acceso al backlog](backlog.md)
+[Acceso al backlog](BACKLOG.md)
 
