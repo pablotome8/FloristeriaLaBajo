@@ -104,7 +104,7 @@ Además, el proyecto está pensado para integrar los distintos módulos de 1º d
 
 
 
-\[Backlog del proyecto](BACKLOG.md)
+->[Backlog del proyecto](BACKLOG.md)
 
 
 
