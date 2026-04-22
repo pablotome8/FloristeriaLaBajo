@@ -1,10 +1,10 @@
-\# 🌸 Floralia
+\# 🌸 FloristeriaLabajo
 
 \## Proyecto intermodular 1º DAW
 
 
 
-\*\*Floralia\*\* es una floristería online pensada para ofrecer flores bonitas, ecológicas y de buena calidad a todo tipo de público.
+\*\*FloristeriaLabajo\*\* es una floristería online pensada para ofrecer flores bonitas, ecológicas y de buena calidad a todo tipo de público.
 
 La idea principal es crear una plataforma visual, sencilla y atractiva donde cualquier persona pueda encontrar el detalle floral perfecto para una ocasión especial o simplemente para regalar algo bonito.
 
