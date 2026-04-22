@@ -82,14 +82,6 @@ Además, el proyecto está pensado para integrar los distintos módulos de 1º d
 
 
 
-## 📚Documentación
-
-
-->[Backlog del proyecto](BACKLOG.md)
-
-
-
-
 ## 🚀Estado actual
 
 
@@ -106,6 +98,13 @@ Además, el proyecto está pensado para integrar los distintos módulos de 1º d
 - \[ ] Programación de la aplicación.
 
 - \[ ] Documentación final.
+
+
+
+## 📚Documentación
+
+
+->[Backlog del proyecto](BACKLOG.md)
 
 
 
