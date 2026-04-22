@@ -112,5 +112,5 @@ Además, el proyecto está pensado para integrar los distintos módulos de 1º d
 ## 👤Autor
 
 
-Proyecto realizado para el módulo intermodular de 1º de DAW.
+Proyecto realizado para el módulo intermodular de 1º de DAW por Pablo Tomé Manzano, estudiante de 1°DAW.
 
