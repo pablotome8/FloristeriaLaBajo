@@ -2,29 +2,15 @@
 
 
 
-\## Descripción general
+\*\*Estado:\*\* Definición inicial | \*\*Sprint:\*\* 0 | \*\*Fecha de inicio:\*\* 21/04/2026
 
 
 
-\*\*Floralia\*\* es una floristería online orientada a todo tipo de público.  
-
-Su objetivo es ofrecer flores bonitas, ecológicas y de buena calidad para regalar en ocasiones especiales o para compra personal.
+\*\*Fecha fin Sprint 1:\*\* Pendiente de planificación
 
 
 
-La futura web permitirá visualizar productos, consultar arreglos florales, realizar pedidos y seleccionar un destinatario para el envío.
-
-
-
-\---
-
-
-
-\## Visión del producto
-
-
-
-Crear una plataforma web sencilla, visual y agradable que represente a una floristería moderna, cercana y profesional, facilitando la compra y el envío de flores para distintas ocasiones.
+\*\*Prioridades:\*\* 🔴 P1: Crítico (MVP) | 🟡 P2: Importante | 🔵 P3: Opcional
 
 
 
@@ -32,17 +18,19 @@ Crear una plataforma web sencilla, visual y agradable que represente a una flori
 
 
 
-\## Objetivos del backlog
+\## 1. Identidad y planteamiento
 
 
 
-\- \[ ] Definir las funcionalidades principales del proyecto.
+\- \[x] \*\*FLR-01 (🔴):\*\* Definir la empresa ficticia como una floristería online.
 
-\- \[ ] Organizar el desarrollo por prioridad.
+\- \[x] \*\*FLR-02 (🔴):\*\* Definir el objetivo principal del negocio.
 
-\- \[ ] Relacionar la parte web con la parte lógica y la base de datos.
+\- \[x] \*\*FLR-03 (🔴):\*\* Definir el público objetivo.
 
-\- \[ ] Servir como guía para el desarrollo del proyecto intermodular.
+\- \[x] \*\*FLR-04 (🔴):\*\* Redactar el README inicial del proyecto.
+
+\- \[x] \*\*FLR-05 (🔴):\*\* Crear el backlog inicial del proyecto.
 
 
 
@@ -50,101 +38,21 @@ Crear una plataforma web sencilla, visual y agradable que represente a una flori
 
 
 
-\## Épicas del proyecto
+\## 2. Base de datos
 
 
 
-\### Épica 1. Identidad y presencia digital
+\- \[ ] \*\*BBD-01 (🔴):\*\* Identificar las entidades principales del negocio.
 
-Funcionalidades relacionadas con la imagen de marca, la presentación de la empresa y la estructura base del portal web.
+\- \[ ] \*\*BBD-02 (🔴):\*\* Diseñar el diagrama E/R.
 
+\- \[ ] \*\*BBD-03 (🔴):\*\* Crear el modelo relacional.
 
+\- \[ ] \*\*BBD-04 (🔴):\*\* Crear la base de datos en MariaDB.
 
-\- \[ ] Definir el nombre y la identidad visual de la floristería.
+\- \[ ] \*\*BBD-05 (🟡):\*\* Insertar datos de ejemplo.
 
-\- \[ ] Redactar la presentación general del proyecto.
-
-\- \[ ] Crear la estructura inicial del repositorio.
-
-\- \[ ] Redactar el README inicial.
-
-
-
-\### Épica 2. Catálogo de productos
-
-Funcionalidades para mostrar flores sueltas, ramos y arreglos florales de forma clara y atractiva.
-
-
-
-\- \[ ] Diseñar el catálogo de flores sueltas.
-
-\- \[ ] Diseñar el catálogo de arreglos florales.
-
-\- \[ ] Crear fichas de producto con información básica.
-
-\- \[ ] Añadir imágenes representativas de los productos.
-
-
-
-\### Épica 3. Gestión de pedidos
-
-Funcionalidades relacionadas con la compra, el registro de pedidos y la selección del destinatario.
-
-
-
-\- \[ ] Permitir seleccionar un producto.
-
-\- \[ ] Permitir iniciar un pedido.
-
-\- \[ ] Añadir la opción de elegir destinatario.
-
-\- \[ ] Registrar datos básicos del pedido.
-
-\- \[ ] Simular o gestionar el proceso de compra.
-
-
-
-\### Épica 4. Gestión interna del negocio
-
-Funcionalidades enfocadas al control de productos, clientes, pedidos y stock desde la lógica de negocio y la base de datos.
-
-
-
-\- \[ ] Diseñar el modelo de datos de la floristería.
-
-\- \[ ] Crear el diagrama E/R.
-
-\- \[ ] Obtener el modelo relacional.
-
-\- \[ ] Crear la base de datos en SQL.
-
-\- \[ ] Insertar datos de ejemplo.
-
-\- \[ ] Preparar consultas útiles del negocio.
-
-\- \[ ] Implementar CRUD básico con Java y JDBC.
-
-
-
-\### Épica 5. Administración técnica del proyecto
-
-Tareas relacionadas con documentación, estructura del repositorio, base de datos, entorno y buenas prácticas.
-
-
-
-\- \[ ] Organizar la estructura del repositorio.
-
-\- \[ ] Mantener una documentación clara y actualizada.
-
-\- \[ ] Crear la carpeta de base de datos.
-
-\- \[ ] Crear la carpeta de diagramas.
-
-\- \[ ] Crear la carpeta de documentación.
-
-\- \[ ] Documentar el entorno de ejecución.
-
-\- \[ ] Aplicar una arquitectura limpia en el código.
+\- \[ ] \*\*BBD-06 (🟡):\*\* Crear consultas útiles para el negocio.
 
 
 
@@ -152,53 +60,25 @@ Tareas relacionadas con documentación, estructura del repositorio, base de dato
 
 
 
-\## Backlog de producto
+\## 3. Web corporativa
 
 
 
-\- \[ ] \*\*PB-01\*\* — Como visitante, quiero ver una página de inicio atractiva para entender rápidamente qué es Floralia y qué ofrece.
+\- \[ ] \*\*WEB-01 (🔴):\*\* Maquetar la página de inicio.
 
-\- \[ ] \*\*PB-02\*\* — Como visitante, quiero conocer la filosofía de la empresa para identificar su enfoque ecológico, visual y de calidad.
+\- \[ ] \*\*WEB-02 (🔴):\*\* Crear el menú de navegación principal.
 
-\- \[ ] \*\*PB-03\*\* — Como visitante, quiero navegar fácilmente por la web para encontrar productos y secciones sin dificultad.
+\- \[ ] \*\*WEB-03 (🟡):\*\* Crear la página de catálogo de flores sueltas.
 
-\- \[ ] \*\*PB-04\*\* — Como visitante, quiero ver un catálogo de flores sueltas para explorar opciones de compra individuales.
+\- \[ ] \*\*WEB-04 (🟡):\*\* Crear la página de arreglos florales.
 
-\- \[ ] \*\*PB-05\*\* — Como visitante, quiero ver arreglos florales y ramos para elegir productos más elaborados para ocasiones especiales.
+\- \[ ] \*\*WEB-05 (🟡):\*\* Crear la página de contacto.
 
-\- \[ ] \*\*PB-06\*\* — Como visitante, quiero consultar la información básica de cada producto para decidir cuál comprar.
+\- \[ ] \*\*WEB-06 (🟡):\*\* Crear la página de sobre nosotros.
 
-\- \[ ] \*\*PB-07\*\* — Como cliente, quiero seleccionar un producto para iniciar un pedido.
+\- \[ ] \*\*WEB-07 (🔵):\*\* Aplicar diseño responsive básico.
 
-\- \[ ] \*\*PB-08\*\* — Como cliente, quiero indicar un destinatario para el envío para poder regalar flores a otra persona.
-
-\- \[ ] \*\*PB-09\*\* — Como cliente, quiero registrar mis datos básicos en un pedido para completar la compra.
-
-\- \[ ] \*\*PB-10\*\* — Como cliente, quiero que la web tenga una sección de contacto para comunicarme con la floristería.
-
-\- \[ ] \*\*PB-11\*\* — Como visitante, quiero ver una presentación visual cuidada para que la experiencia resulte agradable y profesional.
-
-\- \[ ] \*\*PB-12\*\* — Como administrador, quiero gestionar el catálogo de productos para añadir, modificar o eliminar flores y arreglos.
-
-\- \[ ] \*\*PB-13\*\* — Como administrador, quiero consultar los pedidos registrados para llevar control de las compras realizadas.
-
-\- \[ ] \*\*PB-14\*\* — Como administrador, quiero gestionar clientes y destinatarios para mantener organizada la información del negocio.
-
-\- \[ ] \*\*PB-15\*\* — Como administrador, quiero controlar el stock disponible para saber qué productos pueden ofrecerse.
-
-\- \[ ] \*\*PB-16\*\* — Como sistema, quiero almacenar productos, pedidos, clientes y destinatarios en base de datos para mantener la información estructurada.
-
-\- \[ ] \*\*PB-17\*\* — Como desarrollador, quiero diseñar un modelo de datos coherente con una floristería real para que la base de datos represente bien el negocio.
-
-\- \[ ] \*\*PB-18\*\* — Como desarrollador, quiero implementar operaciones CRUD sobre las entidades principales para gestionar la empresa desde Java.
-
-\- \[ ] \*\*PB-19\*\* — Como desarrollador, quiero conectar la aplicación a MariaDB mediante JDBC para trabajar con datos reales.
-
-\- \[ ] \*\*PB-20\*\* — Como desarrollador, quiero organizar el repositorio y la documentación del proyecto para mantener una estructura profesional en GitHub.
-
-\- \[ ] \*\*PB-21\*\* — Como desarrollador, quiero documentar el entorno de ejecución para que el proyecto pueda instalarse y ejecutarse correctamente.
-
-\- \[ ] \*\*PB-22\*\* — Como desarrollador, quiero aplicar una arquitectura ordenada en el código para que el proyecto sea mantenible y escalable.
+\- \[ ] \*\*WEB-08 (🔵):\*\* Añadir imágenes y recursos visuales coherentes con la marca.
 
 
 
@@ -206,33 +86,23 @@ Tareas relacionadas con documentación, estructura del repositorio, base de dato
 
 
 
-\## Historias priorizadas para la primera versión
+\## 4. Programación
 
 
 
-\### MVP del proyecto
+\- \[ ] \*\*APP-01 (🔴):\*\* Crear la estructura inicial del proyecto Java.
 
-Estas serían las funcionalidades mínimas para una primera versión coherente:
+\- \[ ] \*\*APP-02 (🔴):\*\* Crear las clases principales del modelo.
 
+\- \[ ] \*\*APP-03 (🔴):\*\* Implementar la conexión JDBC.
 
+\- \[ ] \*\*APP-04 (🔴):\*\* Implementar operaciones CRUD.
 
-\- \[ ] Página de inicio corporativa.
+\- \[ ] \*\*APP-05 (🟡):\*\* Añadir validación de datos.
 
-\- \[ ] Menú de navegación funcional.
+\- \[ ] \*\*APP-06 (🟡):\*\* Añadir manejo básico de errores.
 
-\- \[ ] Catálogo de flores y arreglos florales.
-
-\- \[ ] Ficha básica de producto.
-
-\- \[ ] Formulario o proceso básico de pedido.
-
-\- \[ ] Selección de destinatario.
-
-\- \[ ] Base de datos con productos, clientes, pedidos y destinatarios.
-
-\- \[ ] CRUD básico en Java con JDBC.
-
-\- \[ ] README y documentación inicial del proyecto.
+\- \[ ] \*\*APP-07 (🟡):\*\* Separar el código en paquetes con sentido.
 
 
 
@@ -240,59 +110,21 @@ Estas serían las funcionalidades mínimas para una primera versión coherente:
 
 
 
-\## Backlog técnico
+\## 5. Documentación y entrega
 
 
 
-\### Frontend
+\- \[ ] \*\*DOC-01 (🔴):\*\* Mantener el repositorio organizado.
 
-\- \[ ] Crear estructura HTML semántica.
+\- \[ ] \*\*DOC-02 (🔴):\*\* Actualizar el README con la evolución del proyecto.
 
-\- \[ ] Diseñar la identidad visual de Floralia.
+\- \[ ] \*\*DOC-03 (🟡):\*\* Crear documentación técnica del entorno.
 
-\- \[ ] Maquetar Home, catálogo, sobre nosotros y contacto.
+\- \[ ] \*\*DOC-04 (🟡):\*\* Preparar el informe de sistemas.
 
-\- \[ ] Crear fichas de producto.
+\- \[ ] \*\*DOC-05 (🟡):\*\* Preparar la documentación de empleabilidad.
 
-\- \[ ] Adaptar la web a responsive básico.
-
-\- \[ ] Mantener consistencia visual entre páginas.
-
-
-
-\### Backend
-
-\- \[ ] Crear la aplicación Java.
-
-\- \[ ] Organizar paquetes y clases.
-
-\- \[ ] Implementar lógica de gestión de productos.
-
-\- \[ ] Implementar lógica de gestión de pedidos.
-
-\- \[ ] Implementar lógica de gestión de clientes y destinatarios.
-
-\- \[ ] Añadir validaciones básicas.
-
-\- \[ ] Gestionar errores de forma clara.
-
-
-
-\### Base de datos
-
-\- \[ ] Analizar las entidades del negocio.
-
-\- \[ ] Diseñar el diagrama E/R.
-
-\- \[ ] Transformar el diseño en modelo relacional.
-
-\- \[ ] Crear tablas SQL.
-
-\- \[ ] Insertar datos de ejemplo.
-
-\- \[ ] Preparar consultas útiles del negocio.
-
-\- \[ ] Conectar MariaDB con Java mediante JDBC.
+\- \[ ] \*\*DOC-06 (🔴):\*\* Revisar que el repositorio esté listo para entrega.
 
 
 
@@ -300,53 +132,29 @@ Estas serían las funcionalidades mínimas para una primera versión coherente:
 
 
 
-\## Entidades principales del negocio
+\## MVP del proyecto
 
 
 
-Las entidades iniciales más importantes para Floralia serán:
+Estas serían las tareas mínimas para una primera versión funcional:
 
 
 
-\- \[ ] Producto.
+\- \[ ] README y documentación inicial
 
-\- \[ ] Categoría.
+\- \[ ] Base de datos creada.
 
-\- \[ ] Cliente.
+\- \[ ] Página de inicio.
 
-\- \[ ] Destinatario.
+\- \[ ] Navegación funcional.
 
-\- \[ ] Pedido.
+\- \[ ] Catálogo de productos.
 
-\- \[ ] DetallePedido.
+\- \[ ] Lógica del Pedido.
 
-\- \[ ] Stock.
+\- \[ ] Conexión JDBC.
 
-
-
-Estas entidades encajan con lo que se pide en el proyecto, ya que la base de datos debe representar cómo funciona la empresa por dentro y no ser una estructura genérica sin relación con la web.
-
-
-
-\---
-
-
-
-\## Criterios de prioridad
-
-
-
-Se consideran de prioridad alta las funcionalidades que:
-
-
-
-\- \[ ] Definen claramente la empresa ficticia.
-
-\- \[ ] Aportan coherencia entre web, programación y base de datos.
-
-\- \[ ] Son necesarias para que la web tenga sentido como portal corporativo y catálogo online.
-
-\- \[ ] Permiten cubrir los mínimos del proyecto en Bases de Datos, Programación y Lenguajes de Marcas.
+\- \[ ] Documentación Final.
 
 
 
@@ -358,17 +166,5 @@ Se consideran de prioridad alta las funcionalidades que:
 
 
 
-Al finalizar el proyecto, Floralia deberá presentarse como una empresa ficticia creíble, con:
-
-
-
-\- \[ ] Una web corporativa visual y coherente.
-
-\- \[ ] Un catálogo de productos florales.
-
-\- \[ ] Una base de datos alineada con la actividad del negocio.
-
-\- \[ ] Una aplicación Java capaz de gestionar información real de la floristería.
-
-\- \[ ] Una documentación clara y profesional en GitHub.
+Al finalizar el proyecto, Floralia deberá presentarse como una floristería online realista, con una identidad visual cuidada, una estructura lógica de datos y una base técnica coherente con el trabajo de 1º de DAW.
 
