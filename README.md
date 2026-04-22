@@ -4,7 +4,7 @@
 ## Proyecto intermodular 1º DAW
 
 
-*\*FloristeriaLabajo\*\* es una floristería online pensada para ofrecer flores bonitas, ecológicas y de buena calidad a todo tipo de público.
+**FloristeriaLabajo** es una floristería online pensada para ofrecer flores bonitas, ecológicas y de buena calidad a todo tipo de público.
 
 La idea principal es crear una plataforma visual, sencilla y atractiva donde cualquier persona pueda encontrar el detalle floral perfecto para una ocasión especial o simplemente para regalar algo bonito.
 
@@ -34,15 +34,15 @@ Además, el proyecto está pensado para integrar los distintos módulos de 1º d
 ## 🛠️Stack tecnológico
 
 
-
+```
 ### Frontend
 
 - HTML5
 
 - CSS3
+```
 
-
-
+```
 ### Backend
 
 - Java 25 LTS
@@ -50,9 +50,9 @@ Además, el proyecto está pensado para integrar los distintos módulos de 1º d
 - JDBC
 
 - Maven
+```
 
-
-
+```
 ### Base de datos
 
 - SQL
@@ -60,7 +60,7 @@ Además, el proyecto está pensado para integrar los distintos módulos de 1º d
 - MariaDB
 
 - DBeaver
-
+```
 
 
 
