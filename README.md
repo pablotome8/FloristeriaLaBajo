@@ -4,7 +4,7 @@
 
 
 
-\*\*Floralia\*\* es una floristería online pensada para ofrecer flores bonitas, ecológicas y de buena calidad a todo tipo de público.  
+\*\*Floralia\*\* es una floristería online pensada para ofrecer flores bonitas, ecológicas y de buena calidad a todo tipo de público.
 
 La idea principal es crear una plataforma visual, sencilla y atractiva donde cualquier persona pueda encontrar el detalle floral perfecto para una ocasión especial o simplemente para regalar algo bonito.
 
@@ -18,7 +18,7 @@ La idea principal es crear una plataforma visual, sencilla y atractiva donde cua
 
 
 
-Este proyecto intermodular representa una empresa ficticia del sector floral, orientada a la venta de flores sueltas y arreglos florales.  
+Este proyecto intermodular representa una empresa ficticia del sector floral, orientada a la venta de flores sueltas y arreglos florales.
 
 La web servirá como escaparate digital de la floristería, permitiendo mostrar productos, organizar la información de la empresa y facilitar la compra con envío a un destinatario elegido.
 
@@ -32,7 +32,7 @@ La web servirá como escaparate digital de la floristería, permitiendo mostrar 
 
 
 
-El objetivo de Floralia es crear una experiencia web cuidada y coherente, con una imagen amable, natural y profesional.  
+El objetivo de Floralia es crear una experiencia web cuidada y coherente, con una imagen amable, natural y profesional.
 
 Además, el proyecto está pensado para integrar los distintos módulos de 1º de DAW de forma realista, desde la base de datos hasta la programación y la documentación.
 
@@ -104,7 +104,7 @@ Además, el proyecto está pensado para integrar los distintos módulos de 1º d
 
 
 
-\[Backlog del proyecto](backlog.md)
+\[Backlog del proyecto](BACKLOG.md)
 
 
 
