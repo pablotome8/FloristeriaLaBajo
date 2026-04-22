@@ -57,7 +57,7 @@ Además, el proyecto está pensado para integrar los distintos módulos de 1º d
 
 - SQL
 
-- MariaDB
+- MySQL
 
 - DBeaver
 ```
