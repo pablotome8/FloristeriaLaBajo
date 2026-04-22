@@ -1,7 +1,7 @@
 # 🌸 FloristeriaLabajo
 
-## Proyecto intermodular 1º DAW
 
+## Proyecto intermodular 1º DAW
 
 
 *\*FloristeriaLabajo\*\* es una floristería online pensada para ofrecer flores bonitas, ecológicas y de buena calidad a todo tipo de público.
@@ -10,12 +10,8 @@ La idea principal es crear una plataforma visual, sencilla y atractiva donde cua
 
 
 
----
-
-
 
 ## 📌Sobre el proyecto
-
 
 
 Este proyecto intermodular representa una empresa ficticia del sector floral, orientada a la venta de flores sueltas y arreglos florales.
@@ -24,21 +20,14 @@ La web servirá como escaparate digital de la floristería, permitiendo mostrar 
 
 
 
----
-
-
 
 ## 🎯Objetivo
-
 
 
 El objetivo de Floralia es crear una experiencia web cuidada y coherente, con una imagen amable, natural y profesional.
 
 Además, el proyecto está pensado para integrar los distintos módulos de 1º de DAW de forma realista, desde la base de datos hasta la programación y la documentación.
 
-
-
----
 
 
 
@@ -74,12 +63,8 @@ Además, el proyecto está pensado para integrar los distintos módulos de 1º d
 
 
 
----
-
-
 
 ## Funcionalidades previstas
-
 
 
 - Ver catálogo de productos.
@@ -96,24 +81,16 @@ Además, el proyecto está pensado para integrar los distintos módulos de 1º d
 
 
 
----
-
-
 
 ## 📚Documentación
-
 
 
 ->[Backlog del proyecto](BACKLOG.md)
 
 
 
----
-
-
 
 ## 🚀Estado actual
-
 
 
 - \[x] Definición de la empresa.
@@ -132,12 +109,8 @@ Además, el proyecto está pensado para integrar los distintos módulos de 1º d
 
 
 
----
-
-
 
 ## 👤Autor
-
 
 
 Proyecto realizado para el módulo intermodular de 1º de DAW.
