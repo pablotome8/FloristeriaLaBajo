@@ -1,20 +1,20 @@
-\# 🌸 FloristeriaLabajo
+# 🌸 FloristeriaLabajo
 
-\## Proyecto intermodular 1º DAW
+## Proyecto intermodular 1º DAW
 
 
 
-\*\*FloristeriaLabajo\*\* es una floristería online pensada para ofrecer flores bonitas, ecológicas y de buena calidad a todo tipo de público.
+*\*FloristeriaLabajo\*\* es una floristería online pensada para ofrecer flores bonitas, ecológicas y de buena calidad a todo tipo de público.
 
 La idea principal es crear una plataforma visual, sencilla y atractiva donde cualquier persona pueda encontrar el detalle floral perfecto para una ocasión especial o simplemente para regalar algo bonito.
 
 
 
-\---
+---
 
 
 
-\## 📌Sobre el proyecto
+## 📌Sobre el proyecto
 
 
 
@@ -24,11 +24,11 @@ La web servirá como escaparate digital de la floristería, permitiendo mostrar 
 
 
 
-\---
+---
 
 
 
-\## 🎯Objetivo
+## 🎯Objetivo
 
 
 
@@ -38,69 +38,69 @@ Además, el proyecto está pensado para integrar los distintos módulos de 1º d
 
 
 
-\---
+---
 
 
 
-\## 🛠️Stack tecnológico
+## 🛠️Stack tecnológico
 
 
 
-\### Frontend
+### Frontend
 
-\- HTML5
+- HTML5
 
-\- CSS3
-
-
-
-\### Backend
-
-\- Java 25 LTS
-
-\- JDBC
-
-\- Maven
+- CSS3
 
 
 
-\### Base de datos
+### Backend
 
-\- SQL
+- Java 25 LTS
 
-\- MariaDB
+- JDBC
 
-\- DBeaver
-
-
-
-\---
+- Maven
 
 
 
-\## Funcionalidades previstas
+### Base de datos
+
+- SQL
+
+- MariaDB
+
+- DBeaver
 
 
 
-\- Ver catálogo de productos.
-
-\- Consultar flores sueltas y arreglos florales.
-
-\- Comprar productos desde la web.
-
-\- Elegir un destinatario para el envío.
-
-\- Gestionar la información de la empresa mediante una base de datos.
-
-\- Desarrollar una aplicación Java conectada por JDBC.
+---
 
 
 
-\---
+## Funcionalidades previstas
 
 
 
-\## 📚Documentación
+- Ver catálogo de productos.
+
+- Consultar flores sueltas y arreglos florales.
+
+- Comprar productos desde la web.
+
+- Elegir un destinatario para el envío.
+
+- Gestionar la información de la empresa mediante una base de datos.
+
+- Desarrollar una aplicación Java conectada por JDBC.
+
+
+
+---
+
+
+
+## 📚Documentación
 
 
 
@@ -108,35 +108,35 @@ Además, el proyecto está pensado para integrar los distintos módulos de 1º d
 
 
 
-\---
+---
 
 
 
-\## 🚀Estado actual
+## 🚀Estado actual
 
 
 
-\- \[x] Definición de la empresa.
+- \[x] Definición de la empresa.
 
-\- \[x] Elección del stack tecnológico.
+- \[x] Elección del stack tecnológico.
 
-\- \[x] Idea general del portal web.
+- \[x] Idea general del portal web.
 
-\- \[ ] Diseño de la base de datos.
+- \[ ] Diseño de la base de datos.
 
-\- \[ ] Desarrollo de la web.
+- \[ ] Desarrollo de la web.
 
-\- \[ ] Programación de la aplicación.
+- \[ ] Programación de la aplicación.
 
-\- \[ ] Documentación final.
-
-
-
-\---
+- \[ ] Documentación final.
 
 
 
-\## 👤Autor
+---
+
+
+
+## 👤Autor
 
 
 
