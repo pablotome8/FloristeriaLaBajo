@@ -72,7 +72,7 @@
 
 - [ ] **WEB-04 (🟡):** Crear la página de arreglos florales.
 
-- [ ] *\WEB-05 (🟡):** Crear la página de contacto.
+- [ ] *WEB-05 (🟡):** Crear la página de contacto.
 
 - [ ] **WEB-06 (🟡):** Crear la página de sobre nosotros.
 
