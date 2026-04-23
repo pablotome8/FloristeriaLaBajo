@@ -140,7 +140,7 @@ Estas serían las tareas mínimas para una primera versión funcional:
 
 
 
-- [ ] README y documentación inicial
+- [x] README y documentación inicial
 
 - [ ] Base de datos creada.
 
