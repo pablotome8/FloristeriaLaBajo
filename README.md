@@ -34,15 +34,15 @@ Además, el proyecto está pensado para integrar los distintos módulos de 1º d
 ```
 /floralia
 ├── README.md
-├── /web
-├── /src
-├── /sql
-├── /diagrams
-├── /docs
-│   ├── backlog.md
-│   ├── /sistemas
-│   ├── /empleabilidad
-│   └── /capturas
+├── /web → portal web (HTML/CSS)
+├── /src → código fuente de la aplicación Java
+├── /sql → scripts de base de datos (MySQL)
+├── /diagrams → diagramas E-R y modelo relacional
+├── /docs → documentación técnica del proyecto
+│   ├── backlog.md 
+│   ├── /sistemas → documentación técnica del sistema
+│   ├── /empleabilidad → documentación de perfil profesional
+│   └── /capturas → capturas del proceso de desarrollo y funcionamiento
 └── /.gitignore
 ```
 
