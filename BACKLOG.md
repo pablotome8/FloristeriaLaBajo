@@ -98,7 +98,7 @@
 
 - [ ] **APP-04 (🔴):** Implementar operaciones CRUD.
 
-- [ ] \*\*APP-05 (🟡):\*\* Añadir validación de datos.
+- [ ] **APP-05 (🟡):** Añadir validación de datos.
 
 - [ ] **APP-06 (🟡):** Añadir manejo básico de errores.
 
