@@ -29,6 +29,23 @@ El objetivo de Floralia es crear una experiencia web cuidada y coherente, con un
 Además, el proyecto está pensado para integrar los distintos módulos de 1º de DAW de forma realista, desde la base de datos hasta la programación y la documentación.
 
 
+## 📚Documentación
+
+```
+/floralia
+├── README.md
+├── /web
+├── /src
+├── /sql
+├── /diagrams
+├── /docs
+│   ├── backlog.md
+│   ├── /sistemas
+│   ├── /empleabilidad
+│   └── /capturas
+└── /.gitignore
+```
+
 
 
 ## 🛠️Stack tecnológico
@@ -61,6 +78,7 @@ Además, el proyecto está pensado para integrar los distintos módulos de 1º d
 
 - DBeaver
 ```
+
 
 
 
@@ -98,11 +116,6 @@ Además, el proyecto está pensado para integrar los distintos módulos de 1º d
 - \[ ] Programación de la aplicación.
 
 - \[ ] Documentación final.
-
-
-
-## 📚Documentación
-
 
 ->[Backlog del proyecto](BACKLOG.md)
 
