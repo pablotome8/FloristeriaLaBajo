@@ -42,9 +42,9 @@
 
 
 
-- [ ] **BBD-01 (🔴):** Identificar las entidades principales del negocio.
+- [x] **BBD-01 (🔴):** Identificar las entidades principales del negocio.
 
-- [ ] **BBD-02 (🔴):** Diseñar el diagrama E/R.
+- [x] **BBD-02 (🔴):** Diseñar el diagrama E/R.
 
 - [ ] **BBD-03 (🔴):** Crear el modelo relacional.
 
