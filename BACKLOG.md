@@ -48,7 +48,7 @@
 
 - [ ] **BBD-03 (🔴):** Crear el modelo relacional.
 
-- [ ] **BBD-04 (🔴):** Crear la base de datos en MariaDB.
+- [ ] **BBD-04 (🔴):** Crear la base de datos en MySQL.
 
 - [ ] **BBD-05 (🟡):** Insertar datos de ejemplo.
 
