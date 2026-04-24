@@ -1,14 +1,11 @@
 # 🌸 Product Backlog — **FloristeriaLaBajo**
 
 
+**Fecha de inicio:** 21/04/2026
 
-**Estado:** Creación Base de Datos | **Sprint:** 2 | **Fecha de inicio:** 21/04/2026
+**Estado:** Creación Base de Datos | **Sprint:** 2
 
-
-
-**Fecha fin Sprint 1:** 26/04/2026
-
-
+**Fecha fin Sprint 2:** 26/04/2026
 
 **Prioridades:** 🔴 P1: Crítico (MVP) | 🟡 P2: Importante | 🔵 P3: Opcional
 
@@ -142,7 +139,7 @@ Estas serían las tareas mínimas para una primera versión funcional:
 
 - [x] README y documentación inicial
 
-- [ ] Base de datos creada.
+- [x] Base de datos creada.
 
 - [ ] Página de inicio.
 
