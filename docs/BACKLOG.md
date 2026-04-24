@@ -1,12 +1,12 @@
-# 🌸 Product Backlog — **FloristeriaLabajo**
+# 🌸 Product Backlog — **FloristeriaLaBajo**
 
 
 
-**Estado:** Definición inicial | **Sprint:** 0 | **Fecha de inicio:** 21/04/2026
+**Estado:** Creación Base de Datos | **Sprint:** 2 | **Fecha de inicio:** 21/04/2026
 
 
 
-**Fecha fin Sprint 1:** Pendiente de planificación
+**Fecha fin Sprint 1:** 26/04/2026
 
 
 
@@ -46,9 +46,9 @@
 
 - [x] **BBD-02 (🔴):** Diseñar el diagrama E/R.
 
-- [ ] **BBD-03 (🔴):** Crear el modelo relacional.
+- [x] **BBD-03 (🔴):** Crear el modelo relacional.
 
-- [ ] **BBD-04 (🔴):** Crear la base de datos en MySQL.
+- [x] **BBD-04 (🔴):** Crear la base de datos en MySQL.
 
 - [ ] **BBD-05 (🟡):** Insertar datos de ejemplo.
 
@@ -166,5 +166,5 @@ Estas serían las tareas mínimas para una primera versión funcional:
 
 
 
-Al finalizar el proyecto, Floralia deberá presentarse como una floristería online realista, con una identidad visual cuidada, una estructura lógica de datos y una base técnica coherente con el trabajo de 1º de DAW.
+Al finalizar el proyecto, FloristeriLaBajo deberá presentarse como una floristería online realista, con una identidad visual cuidada, una estructura lógica de datos y una base técnica coherente con el trabajo de 1º de DAW.
 

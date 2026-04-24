@@ -1,10 +1,10 @@
-# 🌸 FloristeriaLabajo
+# 🌸 FloristeriaLaBajo
 
 
 ## Proyecto intermodular 1º DAW
 
 
-**FloristeriaLabajo** es una floristería online pensada para ofrecer flores bonitas, ecológicas y de buena calidad a todo tipo de público.
+**FloristeriaLaBajo** es una floristería online pensada para ofrecer flores bonitas, ecológicas y de buena calidad a todo tipo de público.
 
 La idea principal es crear una plataforma visual, sencilla y atractiva donde cualquier persona pueda encontrar el detalle floral perfecto para una ocasión especial o simplemente para regalar algo bonito.
 
@@ -24,7 +24,7 @@ La web servirá como escaparate digital de la floristería, permitiendo mostrar 
 ## 🎯Objetivo
 
 
-El objetivo de Floralia es crear una experiencia web cuidada y coherente, con una imagen amable, natural y profesional.
+El objetivo de FloristeriaLaBajo es crear una experiencia web cuidada y coherente, con una imagen amable, natural y profesional.
 
 Además, el proyecto está pensado para integrar los distintos módulos de 1º de DAW de forma realista, desde la base de datos hasta la programación y la documentación.
 
@@ -32,7 +32,7 @@ Además, el proyecto está pensado para integrar los distintos módulos de 1º d
 ## 📚Documentación
 
 ```
-/floralia
+/FloristeriaLaBajo
 ├── README.md
 ├── /web → portal web (HTML/CSS)
 ├── /src → código fuente de la aplicación Java
@@ -103,19 +103,19 @@ Además, el proyecto está pensado para integrar los distintos módulos de 1º d
 ## 🚀Estado actual
 
 
-- \[x] Definición de la empresa.
+- [x] Definición de la empresa.
 
-- \[x] Elección del stack tecnológico.
+- [x] Elección del stack tecnológico.
 
-- \[x] Idea general del portal web.
+- [x] Idea general del portal web.
 
-- \[x] Diseño de la base de datos.
+- [x] Diseño de la base de datos.
 
-- \[ ] Desarrollo de la web.
+- [ ] Desarrollo de la web.
 
-- \[ ] Programación de la aplicación.
+- [ ] Programación de la aplicación.
 
-- \[ ] Documentación final.
+- [ ] Documentación final.
 
 ->[Backlog del proyecto](docs/BACKLOG.md)
 
