@@ -13,7 +13,59 @@ public class FlorService {
         return florDAO.listarTodas();
     }
 
+    public Flor obtenerFlorPorId(int id) {
+        if (id <= 0) {
+            System.out.println("El id debe ser mayor que 0.");
+            return null;
+        }
+        return florDAO.buscarPorId(id);
+    }
+
     public boolean agregarFlor(String nombre, double precio, int cantidad) {
+        if (!datosValidos(nombre, precio, cantidad)) {
+            return false;
+        }
+
+        Flor flor = new Flor(0, nombre, precio, cantidad);
+        return florDAO.insertar(flor);
+    }
+
+    public boolean actualizarFlor(int id, String nombre, double precio, int cantidad) {
+        if (id <= 0) {
+            System.out.println("El id debe ser mayor que 0.");
+            return false;
+        }
+
+        if (!datosValidos(nombre, precio, cantidad)) {
+            return false;
+        }
+
+        Flor florExistente = florDAO.buscarPorId(id);
+        if (florExistente == null) {
+            System.out.println("No existe ninguna flor con ese id.");
+            return false;
+        }
+
+        Flor florActualizada = new Flor(id, nombre, precio, cantidad);
+        return florDAO.actualizar(florActualizada);
+    }
+
+    public boolean eliminarFlor(int id) {
+        if (id <= 0) {
+            System.out.println("El id debe ser mayor que 0.");
+            return false;
+        }
+
+        Flor florExistente = florDAO.buscarPorId(id);
+        if (florExistente == null) {
+            System.out.println("No existe ninguna flor con ese id.");
+            return false;
+        }
+
+        return florDAO.eliminar(id);
+    }
+
+    private boolean datosValidos(String nombre, double precio, int cantidad) {
         if (nombre == null || nombre.isBlank()) {
             System.out.println("El nombre no puede estar vacío.");
             return false;
@@ -29,7 +81,6 @@ public class FlorService {
             return false;
         }
 
-        Flor flor = new Flor(0, nombre, precio, cantidad);
-        return florDAO.insertar(flor);
+        return true;
     }
 }
