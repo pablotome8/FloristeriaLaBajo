@@ -47,7 +47,7 @@
 
 - [x] **BBD-04 (🔴):** Crear la base de datos en MySQL.
 
-- [ ] **BBD-05 (🟡):** Insertar datos de ejemplo.
+- [x] **BBD-05 (🟡):** Insertar datos de ejemplo.
 
 - [ ] **BBD-06 (🟡):** Crear consultas útiles para el negocio.
 
@@ -61,21 +61,19 @@
 
 
 
-- [ ] **WEB-01 (🔴):** Maquetar la página de inicio.
+- [x] **WEB-01 (🔴):** Maquetar la página de inicio.
 
-- [ ] **WEB-02 (🔴):** Crear el menú de navegación principal.
+- [x] **WEB-02 (🔴):** Crear el menú de navegación principal.
 
-- [ ] **WEB-03 (🟡):** Crear la página de catálogo de flores sueltas.
+- [x] **WEB-03 (🟡):** Crear la página de catálogo de flores sueltas.
 
-- [ ] **WEB-04 (🟡):** Crear la página de arreglos florales.
+- [x] **WEB-05 (🟡):** Crear la página de contacto.
 
-- [ ] **WEB-05 (🟡):** Crear la página de contacto.
+- [x] **WEB-06 (🟡):** Crear la página de sobre nosotros.
 
-- [ ] **WEB-06 (🟡):** Crear la página de sobre nosotros.
+- [x] **WEB-07 (🔵):** Aplicar diseño responsive básico.
 
-- [ ] **WEB-07 (🔵):** Aplicar diseño responsive básico.
-
-- [ ] **WEB-08 (🔵):** Añadir imágenes y recursos visuales coherentes con la marca.
+- [x] **WEB-08 (🔵):** Añadir imágenes y recursos visuales coherentes con la marca.
 
 
 
@@ -141,11 +139,11 @@ Estas serían las tareas mínimas para una primera versión funcional:
 
 - [x] Base de datos creada.
 
-- [ ] Página de inicio.
+- [x] Página de inicio.
 
-- [ ] Navegación funcional.
+- [x] Navegación funcional.
 
-- [ ] Catálogo de productos.
+- [x] Catálogo de productos.
 
 - [ ] Lógica del Pedido.
 

@@ -111,7 +111,7 @@ Además, el proyecto está pensado para integrar los distintos módulos de 1º d
 
 - [x] Diseño de la base de datos.
 
-- [ ] Desarrollo de la web.
+- [x] Desarrollo de la web.
 
 - [ ] Programación de la aplicación.
 
