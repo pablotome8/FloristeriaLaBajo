@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Lirio rosa">
+  <rect width="512" height="512" rx="36" fill="#fff9fb"/>
+  <path d="M256 278V440" stroke="#5f8d48" stroke-width="18" stroke-linecap="round"/>
+  <path d="M247 344c-44-18-57-52-42-83 34 6 53 27 50 83Z" fill="#74a85d"/>
+  <path d="M265 370c44-18 57-52 42-83-34 6-53 27-50 83Z" fill="#74a85d"/>
+  <g transform="translate(256 186)">
+    <path d="M0-88c18 21 26 49 20 84-24-5-43-20-56-42 5-18 16-31 36-42Z" fill="#f59bc3"/>
+    <path d="M76-32c-5 27-20 49-48 64-14-20-20-41-18-65 24-6 45-6 66 1Z" fill="#ec6cab"/>
+    <path d="M56 64c-25 6-51 0-78-18 10-22 27-38 52-46 16 13 25 34 26 64Z" fill="#f07db6"/>
+    <path d="M-56 64c1-30 10-51 26-64 25 8 42 24 52 46-27 18-53 24-78 18Z" fill="#f07db6"/>
+    <path d="M-76-32c21-7 42-7 66-1 2 24-4 45-18 65-28-15-43-37-48-64Z" fill="#ec6cab"/>
+    <path d="M0-88c-20 11-31 24-36 42-13 22-32 37-56 42-6-35 2-63 20-84 20 11 33 24 36 42Z" fill="#f59bc3"/>
+    <circle cx="0" cy="0" r="18" fill="#ffd26e"/>
+    <g stroke="#7b4a22" stroke-width="4" stroke-linecap="round">
+      <line x1="-8" y1="-4" x2="-20" y2="-34"/>
+      <line x1="8" y1="-4" x2="20" y2="-34"/>
+      <line x1="0" y1="0" x2="0" y2="-38"/>
+    </g>
+  </g>
+</svg>

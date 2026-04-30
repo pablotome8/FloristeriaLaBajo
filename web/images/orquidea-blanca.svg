@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Orquídea blanca">
+  <rect width="512" height="512" rx="36" fill="#fdfcf9"/>
+  <path d="M256 240V440" stroke="#5f8e45" stroke-width="18" stroke-linecap="round"/>
+  <path d="M250 330c-42-18-56-49-40-79 33 7 52 27 46 79Z" fill="#77aa5c"/>
+  <path d="M262 358c42-18 56-49 40-79-33 7-52 27-46 79Z" fill="#77aa5c"/>
+  <g transform="translate(256 175)">
+    <ellipse cx="0" cy="-60" rx="44" ry="66" fill="#fff" stroke="#dcdcdc" stroke-width="7"/>
+    <ellipse cx="-62" cy="-8" rx="46" ry="58" transform="rotate(-24 -62 -8)" fill="#fff" stroke="#dcdcdc" stroke-width="7"/>
+    <ellipse cx="62" cy="-8" rx="46" ry="58" transform="rotate(24 62 -8)" fill="#fff" stroke="#dcdcdc" stroke-width="7"/>
+    <ellipse cx="-40" cy="64" rx="34" ry="44" transform="rotate(-26 -40 64)" fill="#fff" stroke="#dcdcdc" stroke-width="7"/>
+    <ellipse cx="40" cy="64" rx="34" ry="44" transform="rotate(26 40 64)" fill="#fff" stroke="#dcdcdc" stroke-width="7"/>
+    <path d="M0 20c20 0 36 16 36 36S20 98 0 98-36 76-36 56-20 20 0 20Z" fill="#f3d767"/>
+    <path d="M0 34c12 0 22 10 22 22S12 78 0 78-22 68-22 56  -12 34 0 34Z" fill="#a24672"/>
+  </g>
+</svg>

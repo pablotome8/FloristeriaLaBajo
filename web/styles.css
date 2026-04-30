@@ -1,4 +1,3 @@
-/* ========= styles.css ========= */
 :root{
   --bg:#fcf8f4;
   --surface:#ffffff;
@@ -38,7 +37,7 @@ ul{list-style:none}
   border-bottom:1px solid var(--border);
 }
 .header-inner{
-  min-height:78px;
+  min-height:92px;
   display:flex;
   align-items:center;
   justify-content:space-between;
@@ -47,20 +46,30 @@ ul{list-style:none}
 .logo{
   display:flex;
   align-items:center;
-  gap:.8rem;
-  font-weight:700;
-  font-size:1.05rem;
+  gap:1rem;
 }
-.logo-mark{
-  width:44px;
-  height:44px;
-  border-radius:50%;
-  display:grid;
-  place-items:center;
-  background:linear-gradient(135deg,var(--primary),#d1709c);
-  color:#fff;
-  box-shadow:var(--shadow);
-  font-size:1.1rem;
+.logo-img{
+  width:140px;
+  height:auto;
+  max-height:74px;
+  object-fit:contain;
+  filter:drop-shadow(0 8px 16px rgba(47,36,31,.08));
+}
+.logo-text{
+  display:flex;
+  flex-direction:column;
+  gap:.15rem;
+}
+.logo-title{
+  font-size:1.2rem;
+  font-weight:700;
+  color:var(--text);
+}
+.logo-subtitle{
+  font-size:.84rem;
+  color:var(--muted);
+  letter-spacing:.08em;
+  text-transform:uppercase;
 }
 
 .nav{
@@ -139,7 +148,8 @@ p{max-width:70ch}
 .product-card,
 .table-wrap,
 .contact-box,
-.feature-card{
+.feature-card,
+.catalog-item{
   background:var(--surface);
   border:1px solid var(--border);
   border-radius:var(--radius);
@@ -166,6 +176,53 @@ p{max-width:70ch}
 .grid-3{grid-template-columns:repeat(3,1fr)}
 .grid-4{grid-template-columns:repeat(4,1fr)}
 .products-grid{grid-template-columns:repeat(4,1fr)}
+
+.catalog-showcase{
+  overflow:hidden;
+  position:relative;
+  margin-top:1.5rem;
+  padding:.5rem 0;
+}
+
+.catalog-track{
+  display:flex;
+  gap:1.2rem;
+  width:max-content;
+  animation:catalogSlide 26s linear infinite;
+}
+
+.catalog-showcase:hover .catalog-track{
+  animation-play-state:paused;
+}
+
+.catalog-item{
+  width:230px;
+  flex:0 0 230px;
+  padding:1rem;
+  text-align:center;
+}
+
+.catalog-item img{
+  width:110px;
+  height:110px;
+  object-fit:contain;
+  margin:0 auto 1rem;
+}
+
+.catalog-item p{
+  font-size:.95rem;
+  color:var(--muted);
+  max-width:none;
+}
+
+@keyframes catalogSlide{
+  0%{
+    transform:translateX(0);
+  }
+  100%{
+    transform:translateX(-50%);
+  }
+}
 
 .metric{
   padding:1.4rem;
@@ -270,18 +327,128 @@ textarea{
 }
 
 .site-footer{
+  position:relative;
+  overflow:hidden;
   background:#f4ede5;
   border-top:1px solid var(--border);
-  padding:2rem 0;
+  padding:2.5rem 0;
   color:var(--muted);
 }
+.footer-logo-bg{
+  position:absolute;
+  inset:0;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  pointer-events:none;
+  opacity:.08;
+}
+.footer-logo-bg img{
+  width:min(520px,70vw);
+  height:auto;
+}
 .footer-grid{
+  position:relative;
+  z-index:1;
   display:grid;
   grid-template-columns:2fr 1fr 1fr;
   gap:1.5rem;
+}
+.footer-links-vertical{
+  display:flex;
+  flex-direction:column;
+  gap:.45rem;
+  margin-top:.6rem;
+}
+.footer-links-vertical a{
+  width:fit-content;
+}
+.footer-links-vertical a:hover{
+  color:var(--primary);
 }
 
 .note{font-size:.95rem;color:var(--muted)}
 .center{text-align:center}
 
-/* ========= index.html ========= */
+@media (max-width: 980px){
+  .hero-grid,
+  .grid-3,
+  .grid-4,
+  .products-grid,
+  .footer-grid{
+    grid-template-columns:1fr 1fr;
+  }
+
+  .header-inner{
+    flex-direction:column;
+    justify-content:center;
+    padding:1rem 0;
+  }
+
+  .logo{
+    justify-content:center;
+    text-align:center;
+  }
+
+  .logo-text{
+    align-items:flex-start;
+  }
+
+  .catalog-item{
+    width:210px;
+    flex:0 0 210px;
+  }
+}
+
+@media (max-width: 640px){
+  .hero-grid,
+  .grid-2,
+  .grid-3,
+  .grid-4,
+  .products-grid,
+  .form-grid,
+  .footer-grid{
+    grid-template-columns:1fr;
+  }
+
+  .section{
+    padding:3rem 0;
+  }
+
+  .nav{
+    flex-wrap:wrap;
+    justify-content:center;
+  }
+
+  .logo{
+    flex-direction:column;
+    text-align:center;
+  }
+
+  .logo-img{
+    width:170px;
+    max-height:none;
+  }
+
+  .logo-text{
+    align-items:center;
+  }
+
+  .catalog-item{
+    width:190px;
+    flex:0 0 190px;
+  }
+
+  .catalog-item img{
+    width:90px;
+    height:90px;
+  }
+
+  .kv{
+    grid-template-columns:1fr;
+  }
+
+  .footer-logo-bg img{
+    width:85vw;
+  }
+}

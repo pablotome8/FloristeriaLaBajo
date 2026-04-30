@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Rosa roja">
+  <rect width="512" height="512" rx="36" fill="#fffaf7"/>
+  <path d="M256 300V440" stroke="#4f7a39" stroke-width="18" stroke-linecap="round"/>
+  <path d="M250 345c-52-24-66-69-42-106 44 10 66 42 58 106Z" fill="#6b9a54"/>
+  <path d="M262 372c52-24 66-69 42-106-44 10-66 42-58 106Z" fill="#6b9a54"/>
+  <g transform="translate(256 190)">
+    <path d="M0-88c30 10 53 31 60 58-17 19-37 25-60 16-23 9-43 3-60-16 7-27 30-48 60-58Z" fill="#7a0f1f"/>
+    <path d="M-78-8c14-38 46-58 78-58 32 0 64 20 78 58-22 24-50 34-78 26-28 8-56-2-78-26Z" fill="#b1142a"/>
+    <path d="M-70 28c26-24 58-36 70-36s44 12 70 36c-14 28-40 46-70 46s-56-18-70-46Z" fill="#d11d38"/>
+    <path d="M-42 62c16-14 31-20 42-20s26 6 42 20c-7 21-22 34-42 34s-35-13-42-34Z" fill="#ef4a61"/>
+    <circle cx="0" cy="8" r="20" fill="#f37a8b"/>
+  </g>
+</svg>

@@ -1,0 +1,24 @@
+<svg width="1200" height="400" viewBox="0 0 1200 400" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Logo de FloristeriaLaBajo">
+  <rect width="1200" height="400" rx="36" fill="#FCF8F4"/>
+  <g transform="translate(90 70)">
+    <circle cx="130" cy="130" r="118" fill="#FFFDF9" stroke="#E7D8CA" stroke-width="8"/>
+    <circle cx="130" cy="130" r="28" fill="#E7C58F"/>
+    <path d="M130 48C145 70 145 92 130 108C115 92 115 70 130 48Z" fill="#A24672"/>
+    <path d="M212 130C190 145 168 145 152 130C168 115 190 115 212 130Z" fill="#A24672"/>
+    <path d="M130 212C115 190 115 168 130 152C145 168 145 190 130 212Z" fill="#A24672"/>
+    <path d="M48 130C70 115 92 115 108 130C92 145 70 145 48 130Z" fill="#A24672"/>
+    <path d="M187 73C185 98 173 115 154 121C152 100 160 82 187 73Z" fill="#C76B95"/>
+    <path d="M187 187C160 178 152 160 154 139C173 145 185 162 187 187Z" fill="#C76B95"/>
+    <path d="M73 187C98 185 115 173 121 154C100 152 82 160 73 187Z" fill="#C76B95"/>
+    <path d="M73 73C82 100 100 108 121 121C115 98 98 82 73 73Z" fill="#C76B95"/>
+    <path d="M130 158V252" stroke="#557A46" stroke-width="10" stroke-linecap="round"/>
+    <path d="M129 205C100 190 92 166 102 144C127 151 137 171 129 205Z" fill="#6D9D5C"/>
+    <path d="M131 225C160 210 168 186 158 164C133 171 123 191 131 225Z" fill="#6D9D5C"/>
+  </g>
+  <g transform="translate(350 105)">
+    <text x="0" y="92" font-family="Georgia, 'Times New Roman', serif" font-size="74" fill="#2F241F" letter-spacing="1.5">Floristeria</text>
+    <text x="0" y="170" font-family="Georgia, 'Times New Roman', serif" font-size="92" fill="#A24672" font-weight="700" letter-spacing="1.5">La Bajo</text>
+    <line x1="4" y1="205" x2="530" y2="205" stroke="#E7D8CA" stroke-width="4"/>
+    <text x="0" y="250" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#6D625A" letter-spacing="3">FLORES · REGALOS · DETALLES ESPECIALES</text>
+  </g>
+</svg>
