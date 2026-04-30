@@ -85,19 +85,19 @@
 
 
 
-- [ ] **APP-01 (🔴):** Crear la estructura inicial del proyecto Java.
+- [x] **APP-01 (🔴):** Crear la estructura inicial del proyecto Java.
 
-- [ ] **APP-02 (🔴):** Crear las clases principales del modelo.
+- [x] **APP-02 (🔴):** Crear las clases principales del modelo.
 
-- [ ] **APP-03 (🔴):** Implementar la conexión JDBC.
+- [x] **APP-03 (🔴):** Implementar la conexión JDBC.
 
-- [ ] **APP-04 (🔴):** Implementar operaciones CRUD.
+- [x] **APP-04 (🔴):** Implementar operaciones CRUD.
 
-- [ ] **APP-05 (🟡):** Añadir validación de datos.
+- [x] **APP-05 (🟡):** Añadir validación de datos.
 
-- [ ] **APP-06 (🟡):** Añadir manejo básico de errores.
+- [x] **APP-06 (🟡):** Añadir manejo básico de errores.
 
-- [ ] **APP-07 (🟡):** Separar el código en paquetes con sentido.
+- [x] **APP-07 (🟡):** Separar el código en paquetes con sentido.
 
 
 
