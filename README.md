@@ -1,6 +1,6 @@
 # 🌸 FloristeriaLaBajo
 
-![Logo de la Marca](web\images\logo-floristerialabajo.svg)
+![Logo de la Marca](web/images/logo-floristerialabajo.svg)
 
 ## Proyecto intermodular 1º DAW
 
