@@ -121,7 +121,7 @@ Además, el proyecto está pensado para integrar los distintos módulos de 1º d
 ->[Backlog del proyecto](docs/BACKLOG.md)
 
 
-## 📊 Estadisticas 
+## 📊 Estadísticas  
 
 ![Lineas de Código](Estadisticas.png)
 
