@@ -1,7 +1,8 @@
 package org.floristerialabajo.model;
 
 public class Flor {
-    private int id_flor;
+
+    private int idFlor;
     private String nombre;
     private double precio;
     private int cantidad;
@@ -10,18 +11,18 @@ public class Flor {
     }
 
     public Flor(int idFlor, String nombre, double precio, int cantidad) {
-        this.id_flor = id_flor;
+        this.idFlor = idFlor;
         this.nombre = nombre;
         this.precio = precio;
         this.cantidad = cantidad;
     }
 
     public int getIdFlor() {
-        return id_flor;
+        return idFlor;
     }
 
     public void setIdFlor(int idFlor) {
-        this.id_flor = id_flor;
+        this.idFlor = idFlor;
     }
 
     public String getNombre() {
@@ -51,7 +52,7 @@ public class Flor {
     @Override
     public String toString() {
         return "Flor{" +
-                "id_flor=" + id_flor +
+                "idFlor=" + idFlor +
                 ", nombre='" + nombre + '\'' +
                 ", precio=" + precio +
                 ", cantidad=" + cantidad +
