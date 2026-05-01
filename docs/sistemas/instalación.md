@@ -74,3 +74,11 @@ Revisar que el repositorio Git está sincronizado y no acumula cambios desordena
 Mantener actualizada la documentación de instalación si cambia algún paso técnico.
 
 Hacer copia de seguridad de scripts SQL, configuración importante y documentación.
+
+## 3. Clonación del Proyecto
+Independientemente del sistema operativo, el primer paso es descargar el código fuente:
+
+```bash
+git clone https://github.com/pablotome8/FloristeriaLaBajo.git
+cd FloristeriaLaBajo
+```
