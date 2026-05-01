@@ -109,9 +109,9 @@
 
 
 
-- [ ] **DOC-01 (🔴):** Mantener el repositorio organizado.
+- [x] **DOC-01 (🔴):** Mantener el repositorio organizado.
 
-- [ ] **DOC-02 (🔴):** Actualizar el README con la evolución del proyecto.
+- [x] **DOC-02 (🔴):** Actualizar el README con la evolución del proyecto.
 
 - [ ] **DOC-03 (🟡):** Crear documentación técnica del entorno.
 
@@ -145,9 +145,9 @@ Estas serían las tareas mínimas para una primera versión funcional:
 
 - [x] Catálogo de productos.
 
-- [ ] Lógica del Pedido.
+- [x] Lógica del Pedido.
 
-- [ ] Conexión JDBC.
+- [x] Conexión JDBC.
 
 - [ ] Documentación Final.
 
