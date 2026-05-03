@@ -116,7 +116,7 @@ Además, el proyecto está pensado para integrar los distintos módulos de 1º d
 
 - [x] Programación de la aplicación.
 
-- [ ] Documentación final.
+- [x] Documentación final.
 
 ->[Backlog del proyecto](docs/BACKLOG.md)
 
