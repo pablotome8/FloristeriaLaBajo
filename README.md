@@ -25,9 +25,7 @@ La web servirá como escaparate digital de la floristería, permitiendo mostrar 
 ## 🎯Objetivo
 
 
-El objetivo de FloristeriaLaBajo es crear una experiencia web cuidada y coherente, con una imagen amable, natural y profesional.
-
-Además, el proyecto está pensado para integrar los distintos módulos de 1º de DAW de forma realista, desde la base de datos hasta la programación y la documentación.
+El objetivo de FloristeriaLaBajo es crear una poryecto acorde a los conocimientos obtenidos desde el inicio de curso hasta hoy e integrar los distintos módulos de 1º de DAW de forma realista, desde la base de datos hasta la programación y la documentación.
 
 
 ## 📚Documentación
@@ -85,18 +83,25 @@ Además, el proyecto está pensado para integrar los distintos módulos de 1º d
 
 ## Funcionalidades previstas
 
+-> WEB
 
-- Ver catálogo de productos.
+- Mostrar un inicio limpio y que llame la atenci'on.
 
-- Consultar flores sueltas y arreglos florales.
+- Consultar catalogo de flores.
 
-- Comprar productos desde la web.
+- Informarse acerca de los valores y poder contactar con la empresa.
 
-- Elegir un destinatario para el envío.
+->BBDD
 
-- Gestionar la información de la empresa mediante una base de datos.
+-Implementar las Base de Datos para posteriormente trabajarse.
 
-- Desarrollar una aplicación Java conectada por JDBC.
+-Crear una serie de Queries útiles para del negocio.
+
+->Java
+
+-Conectarse a BBDD mediante JDBC.
+
+-Implemetar un CRUD completo.
 
 
 
