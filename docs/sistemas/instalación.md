@@ -10,7 +10,7 @@ Instalar Git. Git permite controlar versiones del proyecto y sincronizarlo con G
 
 Instalar DBeaver. Se utiliza como herramienta gráfica para conectarse y gestionar bases de datos, evitando parte de los problemas que pueden aparecer con otras pilas locales más pesadas.
 
-Instalar MySQL. El entorno actual del proyecto usa MySQL como motor de base de datos en lugar de MariaDB.
+Instalar MySQL. El entorno actual del proyecto usa MySQL como motor de base de datos.
 
 Instalar VSCode e IntelliJ.Ambos son editores de código para trabajar HTMl/CSS y Java
 
@@ -78,7 +78,8 @@ Hacer copia de seguridad de scripts SQL, configuración importante y documentaci
 ## 3. Clonación del Proyecto
 Independientemente del sistema operativo, el primer paso es descargar el código fuente:
 
-```bash
+```
+bash
 git clone https://github.com/pablotome8/FloristeriaLaBajo.git
 cd FloristeriaLaBajo
 ```
