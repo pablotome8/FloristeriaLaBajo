@@ -93,15 +93,15 @@ El objetivo de FloristeriaLaBajo es crear una poryecto acorde a los conocimiento
 
 ->BBDD
 
--Implementar las Base de Datos para posteriormente trabajarse.
+- Implementar las Base de Datos para posteriormente trabajarse.
 
--Crear una serie de Queries útiles para del negocio.
+- Crear una serie de Queries útiles para del negocio.
 
 ->Java
 
--Conectarse a BBDD mediante JDBC.
+- Conectarse a BBDD mediante JDBC.
 
--Implemetar un CRUD completo.
+- Implemetar un CRUD completo.
 
 
 
