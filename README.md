@@ -15,7 +15,7 @@ La idea principal es crear una plataforma visual, sencilla y atractiva donde cua
 ## 📌Sobre el proyecto
 
 
-Este proyecto intermodular representa una empresa ficticia del sector floral, orientada a la venta de flores sueltas y arreglos florales.
+Este proyecto intermodular representa una empresa ficticia del sector floral, orientada a la venta de flores sueltas.
 
 La web servirá como escaparate digital de la floristería, permitiendo mostrar productos, organizar la información de la empresa y facilitar la compra con envío a un destinatario elegido.
 
