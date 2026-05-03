@@ -113,13 +113,13 @@
 
 - [x] **DOC-02 (🔴):** Actualizar el README con la evolución del proyecto.
 
-- [ ] **DOC-03 (🟡):** Crear documentación técnica del entorno.
+- [x] **DOC-03 (🟡):** Crear documentación técnica del entorno.
 
-- [ ] **DOC-04 (🟡):** Preparar el informe de sistemas.
+- [x] **DOC-04 (🟡):** Preparar el informe de sistemas.
 
-- [ ] **DOC-05 (🟡):** Preparar la documentación de empleabilidad.
+- [x] **DOC-05 (🟡):** Preparar la documentación de empleabilidad.
 
-- [ ] **DOC-06 (🔴):** Revisar que el repositorio esté listo para entrega.
+- [x] **DOC-06 (🔴):** Revisar que el repositorio esté listo para entrega.
 
 
 
@@ -149,7 +149,7 @@ Estas serían las tareas mínimas para una primera versión funcional:
 
 - [x] Conexión JDBC.
 
-- [ ] Documentación Final.
+- [x] Documentación Final.
 
 
 
