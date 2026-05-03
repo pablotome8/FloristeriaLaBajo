@@ -6,7 +6,7 @@ El sistema elegido para este proyecto es un PC comercial que se usara como entor
 
 
 
-Esta elección la ecnuentro adecuada para el  desarrollo, prueba y documentación de una aplicación de escritorio o consola en Java conectada mediante JDBC a una base de datos MySQL, sin necesidad de desplegarla en un servidor real o en una infraestructura distribuida.
+Esta elección la encuentro adecuada para el  desarrollo, prueba y documentación de una aplicación de consola en Java conectada mediante JDBC a una base de datos MySQL, sin necesidad de desplegarla en un servidor real o en una infraestructura distribuida.
 
 
 
