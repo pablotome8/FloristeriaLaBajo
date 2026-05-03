@@ -63,7 +63,7 @@ Los requisitos mínimos propuestos para ejecutar correctamente el proyecto son l
 
 
 - Conectividad: acceso a Internet para descargas iniciales, dependencias y control de versiones.
-
+```
 
 
 #### Justificación de los mínimos
@@ -74,7 +74,7 @@ Estos requisitos mínimos son razonables porque el proyecto no ejecuta cargas pe
 
 Una configuración de 8 GB de RAM permite trabajar de forma aceptable en tareas de desarrollo académico, mientras que un procesador de 2 núcleos y 10 GB libres de almacenamiento son suficientes para instalar Java 25, MySQL, DBeaver y guardar tanto el código como los scripts SQL y la documentación del proyecto.
 
-```
+
 
 ```
 ### Requisitos recomendados
@@ -93,7 +93,7 @@ Los requisitos recomendados para trabajar con mayor fluidez son:
 
 -Almacenamiento: unidad SSD con al menos 20 GB libres.
 
-
+```
 
 #### Justificación de los recomendados
 
@@ -106,7 +106,7 @@ Un SSD mejora notablemente el arranque del sistema, la apertura de DBeaver, la c
 
 Esto es especialmente útil en una fase de desarrollo donde se alterna constantemente entre:escritura de código,pruebas JDBC,consulta de tablas,edición de documentación y uso de Git/GitHub.
 
-```
+
 
 
 ## Sistema operativo recomendado
