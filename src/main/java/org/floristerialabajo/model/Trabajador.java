@@ -44,6 +44,15 @@ public class Trabajador {
 
     @Override
     public String toString() {
-        return "Trabajador{" + "id=" + idTrabajador + ", dni='" + dni + '\'' + ", nombre='" + nombre + '\'' + '}';
+        return "Trabajador{" +
+                "idTrabajador=" + idTrabajador +
+                ", dni='" + dni + '\'' +
+                ", nombre='" + nombre + '\'' +
+                ", apellidos='" + apellidos + '\'' +
+                ", telefono='" + (telefono != null ? telefono : "N/A") + '\'' +
+                ", email='" + (email != null ? email : "N/A") + '\'' +
+                ", fechaContratacion=" + fechaContratacion +
+                ", fechaBaja=" + (fechaBaja != null ? fechaBaja : "Activo") +
+                '}';
     }
 }

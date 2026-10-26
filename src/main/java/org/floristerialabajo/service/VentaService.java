@@ -29,7 +29,8 @@ public class VentaService {
     private final TrabajadorDAO trabajadorDAO = new TrabajadorDAO();
 
     public int registrarVenta(int idTrabajador, int idCliente, String metodoPago, Date fecha, List<FlorCompra> detalles) {
-        if (!datosCabeceraValidos(idTrabajador, idCliente, metodoPago, fecha)) {
+        String metodoPagoNormalizado = metodoPago != null ? metodoPago.trim().toLowerCase() : "";
+        if (!datosCabeceraValidos(idTrabajador, idCliente, metodoPagoNormalizado, fecha)) {
             return -1;
         }
 
@@ -44,14 +45,20 @@ public class VentaService {
             con = DBConnection.getConnection();
             con.setAutoCommit(false);
 
-            Trabajador trabajador = trabajadorDAO.buscarPorId(idTrabajador);
+            Trabajador trabajador = trabajadorDAO.buscarPorId(con, idTrabajador);
             if (trabajador == null) {
                 System.out.println("No existe el trabajador con id: " + idTrabajador);
                 con.rollback();
                 return -1;
             }
 
-            Cliente cliente = clienteDAO.buscarPorId(idCliente);
+            if (trabajador.getFechaBaja() != null) {
+                System.out.println("El trabajador con id " + idTrabajador + " está dado de baja y no puede registrar ventas.");
+                con.rollback();
+                return -1;
+            }
+
+            Cliente cliente = clienteDAO.buscarPorId(con, idCliente);
             if (cliente == null) {
                 System.out.println("No existe el cliente con id: " + idCliente);
                 con.rollback();
@@ -101,7 +108,7 @@ public class VentaService {
                 importeTotal += flor.getPrecio() * cantidadTotal;
             }
 
-            Compra compra = new Compra(0, idTrabajador, idCliente, metodoPago, fecha, importeTotal);
+            Compra compra = new Compra(0, idTrabajador, idCliente, metodoPagoNormalizado, fecha, importeTotal);
             int idCompraGenerado = compraDAO.insertar(con, compra);
 
             if (idCompraGenerado <= 0) {
@@ -174,6 +181,11 @@ public class VentaService {
 
         if (metodoPago == null || metodoPago.isBlank()) {
             System.out.println("El método de pago no puede estar vacío.");
+            return false;
+        }
+
+        if (!metodoPago.equals("efectivo") && !metodoPago.equals("tarjeta") && !metodoPago.equals("transferencia")) {
+            System.out.println("Método de pago no válido. Valores permitidos: efectivo, tarjeta, transferencia.");
             return false;
         }
 

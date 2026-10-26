@@ -36,12 +36,18 @@ public class ClienteDAO {
     }
 
     public Cliente buscarPorId(int id) {
+        try (Connection con = DBConnection.getConnection()) {
+            return buscarPorId(con, id);
+        } catch (SQLException e) {
+            System.out.println("Error al buscar cliente: " + e.getMessage());
+            return null;
+        }
+    }
+
+    public Cliente buscarPorId(Connection con, int id) throws SQLException {
         String sql = "SELECT id_cliente, dni, nombre, apellidos, email FROM clientes WHERE id_cliente = ?";
 
-        try (
-                Connection con = DBConnection.getConnection();
-                PreparedStatement ps = con.prepareStatement(sql)
-        ) {
+        try (PreparedStatement ps = con.prepareStatement(sql)) {
             ps.setInt(1, id);
 
             try (ResultSet rs = ps.executeQuery()) {
@@ -55,8 +61,6 @@ public class ClienteDAO {
                     );
                 }
             }
-        } catch (SQLException e) {
-            System.out.println("Error al buscar cliente: " + e.getMessage());
         }
 
         return null;

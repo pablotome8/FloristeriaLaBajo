@@ -54,7 +54,7 @@ public class Flor {
         return "Flor{" +
                 "idFlor=" + idFlor +
                 ", nombre='" + nombre + '\'' +
-                ", precio=" + precio +
+                ", precio=" + String.format("%.2f €", precio) +
                 ", cantidad=" + cantidad +
                 '}';
     }

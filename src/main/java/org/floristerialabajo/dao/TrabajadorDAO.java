@@ -44,13 +44,19 @@ public class TrabajadorDAO {
     }
 
     public Trabajador buscarPorId(int idTrabajador) {
+        try (Connection con = DBConnection.getConnection()) {
+            return buscarPorId(con, idTrabajador);
+        } catch (SQLException e) {
+            System.out.println("Error al buscar trabajador por id: " + e.getMessage());
+            return null;
+        }
+    }
+
+    public Trabajador buscarPorId(Connection con, int idTrabajador) throws SQLException {
         String sql = "SELECT id_trabajador, dni, nombre, apellidos, telefono, email, fecha_contratacion, fecha_baja " +
                 "FROM trabajadores WHERE id_trabajador = ?";
 
-        try (
-                Connection con = DBConnection.getConnection();
-                PreparedStatement ps = con.prepareStatement(sql)
-        ) {
+        try (PreparedStatement ps = con.prepareStatement(sql)) {
             ps.setInt(1, idTrabajador);
 
             try (ResultSet rs = ps.executeQuery()) {
@@ -67,8 +73,6 @@ public class TrabajadorDAO {
                     );
                 }
             }
-        } catch (SQLException e) {
-            System.out.println("Error al buscar trabajador por id: " + e.getMessage());
         }
 
         return null;

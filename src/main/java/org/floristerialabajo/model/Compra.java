@@ -110,7 +110,7 @@ public class Compra {
                 ", idCliente=" + idCliente +
                 ", metodoPago='" + metodoPago + '\'' +
                 ", fecha=" + fecha +
-                ", importe=" + importe +
+                ", importe=" + String.format("%.2f €", importe) +
                 '}';
     }
 }

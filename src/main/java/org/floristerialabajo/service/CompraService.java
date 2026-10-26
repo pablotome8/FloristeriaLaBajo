@@ -24,11 +24,12 @@ public class CompraService {
     }
 
     public int agregarCompra(int idTrabajador, int idCliente, String metodoPago, Date fecha, double importe) {
-        if (!datosValidos(idTrabajador, idCliente, metodoPago, fecha, importe)) {
+        String metodoNormalizado = metodoPago != null ? metodoPago.trim().toLowerCase() : "";
+        if (!datosValidos(idTrabajador, idCliente, metodoNormalizado, fecha, importe)) {
             return -1;
         }
 
-        Compra compra = new Compra(0, idTrabajador, idCliente, metodoPago, fecha, importe);
+        Compra compra = new Compra(0, idTrabajador, idCliente, metodoNormalizado, fecha, importe);
         return compraDAO.insertar(compra);
     }
 
@@ -38,7 +39,8 @@ public class CompraService {
             return false;
         }
 
-        if (!datosValidos(idTrabajador, idCliente, metodoPago, fecha, importe)) {
+        String metodoNormalizado = metodoPago != null ? metodoPago.trim().toLowerCase() : "";
+        if (!datosValidos(idTrabajador, idCliente, metodoNormalizado, fecha, importe)) {
             return false;
         }
 
@@ -48,7 +50,7 @@ public class CompraService {
             return false;
         }
 
-        Compra compraActualizada = new Compra(idCompra, idTrabajador, idCliente, metodoPago, fecha, importe);
+        Compra compraActualizada = new Compra(idCompra, idTrabajador, idCliente, metodoNormalizado, fecha, importe);
         return compraDAO.actualizar(compraActualizada);
     }
 
@@ -80,6 +82,11 @@ public class CompraService {
 
         if (metodoPago == null || metodoPago.isBlank()) {
             System.out.println("El método de pago no puede estar vacío.");
+            return false;
+        }
+
+        if (!metodoPago.equals("efectivo") && !metodoPago.equals("tarjeta") && !metodoPago.equals("transferencia")) {
+            System.out.println("Método de pago no válido. Valores permitidos: efectivo, tarjeta, transferencia.");
             return false;
         }
 
